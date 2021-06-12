@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E0C0C"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                tools:text="France "
+                android:textStyle="normal"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Country_text"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                tools:text="France "
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:id="@+id/image"
+            android:scaleType="fitEnd"
+            android:src="@drawable/france"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

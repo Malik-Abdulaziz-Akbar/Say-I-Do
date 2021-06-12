@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263873981046",
+    "firebase_url": "https://say-i-do-79836.firebaseio.com",
+    "project_id": "say-i-do-79836",
+    "storage_bucket": "say-i-do-79836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263873981046:android:e0fced68e9a9c2b3988d57",
+        "android_client_info": {
+          "package_name": "com.example.android.sayido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263873981046-v5kka25ocrd6tor90m539477c2itv9pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.sayido",
+            "certificate_hash": "1e04161568105cfcd4d629024d7ed321e4528c97"
+          }
+        },
+        {
+          "client_id": "263873981046-qe5r4a5b4li4fa2lji1ei5pfaunths52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4nq0X4kWuTms3Tt-hGWm8BmfVa2OfNOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263873981046-qe5r4a5b4li4fa2lji1ei5pfaunths52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

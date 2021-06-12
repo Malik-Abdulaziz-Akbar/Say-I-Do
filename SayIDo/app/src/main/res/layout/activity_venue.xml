@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VenueActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Venues"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/tv3"
+        />
+    <Switch
+        android:id="@+id/wifi_switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="WiFi"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp" />
+
+    <ListView
+        android:id="@+id/venuepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv3"
+        />
+    <ImageView
+        android:id="@+id/selectedtick"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/selectedtick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/selectedtickstyle"
+        />
+
+</RelativeLayout>
